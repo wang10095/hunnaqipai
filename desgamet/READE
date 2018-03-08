@@ -1,0 +1,120 @@
+1. 项目结构  基于cocos2d-x 3.16+
+	git clone git@192.168.1.200:~/desgame.git (c++ 地址)  ->des_0.1
+	ndk ndk-r14b
+	cocos 使用 3.16
+	安卓 android-studio 编译 & 运行 3.0
+	存放路径 /data/work/desgamet
+	大厅lua地址：git clone  git@192.168.1.200:~/src.git
+	子集lua地址：git clone  git@192.168.1.200:~/src.git
+	大厅资源地址：svn://ocean@192.168.1.200:3690/desres/res
+	子集资源地址：svn://ocean@192.168.1.200:3690/desres/child/fastrun
+	忽略文件说明  / 代表项目根路径
+		/         ---> res/ & src/
+		/res      ---> child/
+		/src      ---> child/
+
+	/                    -> des_0.1       (c++)
+	/src                 -> dating_0.1    (lua)
+	/src/child/fastrun   -> fastrun_0.1   (lua)
+	/res                 -> res           (svn)
+	/res/child/fastrun   -> child/fasturn (svn)
+
+	svn/client 里有软件 屏幕截图参考 所需软件资源全有
+
+
+	开发阶段： 用的证书 des推送证书开发.p12 描述性文件 des.mobileprovision
+	生产阶段： 暂无
+	所有子集的运行 必须依托大厅，如想不依赖，可以简化大厅流程达到
+
+	tools/ 扩展用法
+		如想扩展自己的脚本工具 可以在 tools/xxxx/ 里实现你想要的脚本
+
+	模拟器使用 （c++）simulator
+		1. 直接跑 xcode 看log 修改 /mac/SimulatorApp.m -> applicationDidFinishLaunching 
+		2. 导出mac 点击可用的 app 
+			先修改 CCUserDefault-apple.mm -> static std::string _flag = " " 目的保证每个app userdefault 有效
+		3. 模拟器报什么错或者有什么需求 告诉小海 小海负责维护
+
+2. lua 绑定到 c++ 方法
+	lua --> c++ 
+				--> ios
+				--> android
+
+	所有绑定方法 详见 frameworks/runtime-src/Classes/PPCEX/Common.h 
+	绑定方法注册在 AppDelegate : register_all_packages
+
+	添加绑定方法流程
+		编写  Common.h
+		编写 ToolsHelper 
+						--> ios : UtilBridge
+						--> android : AppActivity
+
+	sdk添加
+		ios      proj.ios_mac/ios 添加所需库文件 头文件
+		android  proj.android-studio/app/build.gradle 添加所需依赖，如没有在 app/libs 添加jar文件
+		c++ 提供统一绑定接口
+
+	通用回调方式
+		1. 建议直接使用 AppDelegate:startWithUrl 的方式发消息进行数据传递
+		2. 或者是绑定方法直接返回所需数据
+
+3. 大厅 子集 开发模式
+	tools 包含所有版本控制脚本 & 最外层为 大厅 版本管理
+	tools/fastrun 包含 fastrun 的版本管理     依次类推
+
+	res/child 所有子集资源的父文件夹 如 res/child/fastrun
+	src/child 所有子集代码的父文件夹 如 src/child/fastrun
+
+	注意
+		大厅 ---> 维护一个版本
+		每个子集 ----> 单独维护一个版本
+	如更新fastrun 子集 执行 tools/fastrun/update.py (不是最终写法，只单单表达意思)
+
+	流程
+		程序启动
+		 		-> AppDelegate : check
+		 		-> UpdateScene.h
+		 		-> lua主页
+		 		-> 点击某一个子集
+		 		-> UpdateScene.lua
+		 		-> 进入子集主页
+	添加一个新子集的步骤
+		1. 维护新子集的代码分支 checkout 到 src/child/
+			在src的git仓库 新建一个子集分支  ----->>>> 添加到项目的 /src/child/
+		2. 维护新子集的资源分支 clone    到 res/child/
+			通过cornerstone 在仓库desres/child/中 创建子集  ----->>  添加到 项目/res/child/
+		3. tools 新加子集版本控制脚本
+		4. UserModel 注册 子集初始页 （重要）
+		5. 修改大厅代码 增加子集入口
+
+		玩家进入app的效果是 大厅更新 -> 主页看到增加的子集icon -> 进入子集更新 -> 完全进入子集
+
+	大厅新包
+		1. 大厅新包 应不包含任何子集的代码 && 资源
+		2. 大厅强更包 应不删除任何已下载子集的 代码 && 资源
+
+	调试策略
+		1. 开发阶段   内部测试 统一用200服务器 测试 更新 强更 等问题    （所有功能 优先本地开发，不允许更新 测试或者正式）
+		2. 测试服务器 部分外部测试 用后端人员提供的服务器 
+		3. 正式服务器 完全外部测试
+
+		保证环境一致  开发服务器 >= 测试服务器 >= 正式服务器
+
+	开发阶段 
+		下载二维码 统一地址 192.168.1.200
+		logger 的使用，为了保存日志 建议开发阶段 所有打印存储到文件，通过文件上传的形式把log放到电脑上查看
+
+4. 关于 大厅 子集 数据交互的问题
+	1. server公用
+		准备采用继承的方式 继承大厅所需的公共父类
+
+	2. protobuf的问题
+
+5. lua代码文件名字 混淆 && 资源加密 等安全问题
+	代码混淆
+		现在 : src/app/views/mainscene.lua
+		期望 : src/app/views/xxhajdlal.lua
+	资源加密
+		png 文件不可直接查看
+	安装包加固
+

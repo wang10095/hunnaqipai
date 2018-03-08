@@ -1,0 +1,32 @@
+/frameworks/runtime-src/proj.ios_mac/build/
+/simulator/ios/desgamet-mobile.app/
+/frameworks/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphoneos/libcocos2d iOS.build/dgph
+/frameworks/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphoneos/libcocos2d iOS.build/dgph~
+/frameworks/cocos2d-x/cocos/scripting/lua-bindings/proj.ios_mac/build/cocos2d_lua_bindings.build/Debug-iphoneos/libluacocos2d iOS.build/dgph
+/frameworks/cocos2d-x/cocos/scripting/lua-bindings/proj.ios_mac/build/cocos2d_lua_bindings.build/Debug-iphoneos/libluacocos2d iOS.build/dgph~
+/frameworks/cocos2d-x/tools/simulator/libsimulator/proj.ios_mac/build/libsimulator.build/Debug-iphoneos/libsimulator iOS.build/dgph
+/frameworks/cocos2d-x/tools/simulator/libsimulator/proj.ios_mac/build/libsimulator.build/Debug-iphoneos/libsimulator iOS.build/dgph~
+/frameworks/runtime-src/proj.ios_mac/build/desgamet.build/Debug-iphoneos/desgamet-mobile.build/dgph
+/frameworks/runtime-src/proj.ios_mac/build/desgamet.build/Debug-iphoneos/desgamet-mobile.build/dgph~
+/frameworks/cocos2d-x/build/build/SharedPrecompiledHeaders/cocos2d-prefix-bdvnjfbdvovatpgvwfpqngypchfx/cocos2d-prefix.pch.data
+/frameworks/cocos2d-x/build/build/SharedPrecompiledHeaders/cocos2d-prefix-bdvnjfbdvovatpgvwfpqngypchfx/cocos2d-prefix.pch.pch
+/frameworks/cocos2d-x/build/build/SharedPrecompiledHeaders/cocos2d-prefix-bjispsakeqegzhecpkexaoxwuhsz/cocos2d-prefix.pch.data
+/frameworks/cocos2d-x/build/build/SharedPrecompiledHeaders/cocos2d-prefix-bjispsakeqegzhecpkexaoxwuhsz/cocos2d-prefix.pch.pch
+/frameworks/cocos2d-x/build/build/SharedPrecompiledHeaders/cocos2d-prefix-ceamnebfinyquvfswatpqctgitap/cocos2d-prefix.pch.data
+/frameworks/cocos2d-x/build/build/SharedPrecompiledHeaders/cocos2d-prefix-ceamnebfinyquvfswatpqctgitap/cocos2d-prefix.pch.pch
+/frameworks/cocos2d-x/build/build/SharedPrecompiledHeaders/cocos2d-prefix-ftdmcixtlczoohasacohzbewnyyg/cocos2d-prefix.pch.data
+/frameworks/cocos2d-x/build/build/SharedPrecompiledHeaders/cocos2d-prefix-ftdmcixtlczoohasacohzbewnyyg/cocos2d-prefix.pch.pch
+/frameworks/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphoneos/libcocos2d iOS.build/Objects-normal/armv7/HttpClient-apple.o
+/frameworks/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphoneos/libcocos2d iOS.build/Objects-normal/armv7/UIHelper.o
+/frameworks/cocos2d-x/tools/simulator/libsimulator/proj.ios_mac/build/libsimulator.build/
+/simulator/
+.DS_Store
+/frameworks/cocos2d-x/build/cocos2d_libs.xcodeproj/xcuserdata/nabai_dev.xcuserdatad/xcschemes/xcschememanagement.plist
+/frameworks/cocos2d-x/cocos/scripting/lua-bindings/proj.ios_mac/cocos2d_lua_bindings.xcodeproj/xcuserdata/nabai_dev.xcuserdatad/xcschemes/xcschememanagement.plist
+/frameworks/runtime-src/proj.ios_mac/desgamet.xcodeproj
+/res/
+/src/
+/Fine_art/
+/child/
+/childsrc/
+/server/
