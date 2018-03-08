@@ -1,0 +1,6 @@
+{
+  "packageUrl": "http://192.168.1.200:8888/down/des/res/child/hzmj/", 
+  "remoteManifestUrl": "http://192.168.1.200:8888/down/des/res/child/hzmj/project.manifest", 
+  "remoteVersionUrl": "http://192.168.1.200:8888/down/des/res/child/hzmj/version.manifest", 
+  "version": "0.0.03"
+}

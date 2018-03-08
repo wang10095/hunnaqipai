@@ -1,0 +1,6 @@
+{
+  "packageUrl": "http://192.168.1.200:8888/down/des/res/", 
+  "remoteManifestUrl": "http://192.168.1.200:8888/down/des/project.manifest", 
+  "remoteVersionUrl": "http://192.168.1.200:8888/down/des/version.manifest", 
+  "version": "0.0.14"
+}

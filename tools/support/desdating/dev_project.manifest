@@ -1,0 +1,482 @@
+{
+  "assets": {
+    "app/MyApp.lua": {
+      "md5": "6b2e36fddbad045c2b36b459b71ec32b"
+    }, 
+    "app/adapter/MainServer.lua": {
+      "md5": "dedf7e2b1b458b576d76752bbf3ce05f"
+    }, 
+    "app/adapter/SocketInit.lua": {
+      "md5": "79d82d090d214b5908f042eb566ce400"
+    }, 
+    "app/adapter/SocketTCP.lua": {
+      "md5": "5a09affed1f97dd9b2a08eb34079e415"
+    }, 
+    "app/adapter/UserModel.lua": {
+      "md5": "3f43b3e3b79f1b1c554d4c59b3c26d70"
+    }, 
+    "app/adapter/dating.pb": {
+      "md5": "76c1a3773d319e8bab2d475c6e4b4368"
+    }, 
+    "app/adapter/extend.lua": {
+      "md5": "df0418cb74867d2e756214a734e1e15f"
+    }, 
+    "app/adapter/protobuf.lua": {
+      "md5": "4a092290ef8404ba3abfc608c7def504"
+    }, 
+    "app/views/ComPopup.lua": {
+      "md5": "754a5e79f000fb9e38b056a71964da96"
+    }, 
+    "app/views/HomePopup.lua": {
+      "md5": "9055749ed4b188c8300b3a1599c6ca7c"
+    }, 
+    "app/views/HomeScene.lua": {
+      "md5": "1baea8a55aea8e08afc9512e350fa992"
+    }, 
+    "app/views/InfoTips.lua": {
+      "md5": "3c09c8a9f7645797bd68f0edc9b4dd59"
+    }, 
+    "app/views/InfoWait.lua": {
+      "md5": "a452168fdc004490ce586e9210332873"
+    }, 
+    "app/views/LoginScene.lua": {
+      "md5": "12ad12c6b473760f6ef30138420ace20"
+    }, 
+    "app/views/MainScene.lua": {
+      "md5": "fe29d6c3215262e094a832e42ee9cab3"
+    }, 
+    "app/views/UpdateScene.lua": {
+      "md5": "a044b1a7312da7a4afb07600d9c571b2"
+    }, 
+    "config.lua": {
+      "md5": "ea5d276925f093f9499ffbd0c8de6536"
+    }, 
+    "creator/AgrText.png": {
+      "md5": "8b3e1e95431256059f8fe797c9fea76d"
+    }, 
+    "creator/activity.ccreator": {
+      "md5": "2165ade153c43398941887998599f903"
+    }, 
+    "creator/btn_back_nor.png": {
+      "md5": "91a5f5b49afe41ababf08090d75d3813"
+    }, 
+    "creator/btn_bindmobile_nor.png": {
+      "md5": "49250e4c07f35b4aa067e6f1b3b3d0fc"
+    }, 
+    "creator/btn_bindsure_nor.png": {
+      "md5": "cdf3225c2795eb29ab17c0e4ae73724a"
+    }, 
+    "creator/btn_chagaun_nor.png": {
+      "md5": "47adfe96ec7afb06c490a2f81d9706e6"
+    }, 
+    "creator/btn_chaidan_nor.png": {
+      "md5": "66a02666b57f28da60621edb0a0391a0"
+    }, 
+    "creator/btn_changde_nor.png": {
+      "md5": "0cb38a1fa0f106db7075f01ad9a9ed23"
+    }, 
+    "creator/btn_changshan_nor.png": {
+      "md5": "721bab06b097577033afaadfa689dc21"
+    }, 
+    "creator/btn_code_nor.png": {
+      "md5": "55839fda88dd1f34551cacbfc7ad0e30"
+    }, 
+    "creator/btn_copy.png": {
+      "md5": "e400b763c8bc2ec35b82aa65492d47f5"
+    }, 
+    "creator/btn_countdown_dis.png": {
+      "md5": "cab091c125da96d4b0548533799b44fd"
+    }, 
+    "creator/btn_gold_nor.png": {
+      "md5": "10b146b1190f180fb7a3bd59f31a39fc"
+    }, 
+    "creator/btn_hanshou_nor.png": {
+      "md5": "3ce2faf406e494b03ac55a954387346e"
+    }, 
+    "creator/btn_homejoin_nor.png": {
+      "md5": "fb8cc38041e54335759ac3d67743b8f9"
+    }, 
+    "creator/btn_hongzhong_nor.png": {
+      "md5": "f346b3dbe14361428fdaa9fb757098fb"
+    }, 
+    "creator/btn_huodong_nor.png": {
+      "md5": "2af56cc0e51fd780616e605e4a251483"
+    }, 
+    "creator/btn_invite_nor.png": {
+      "md5": "7e053f094e740cdc09db3f00fe4d728e"
+    }, 
+    "creator/btn_kefu_nor.png": {
+      "md5": "e83bc2ec28b7d2b03354eff4a0c4dedb"
+    }, 
+    "creator/btn_keyRest_nor.png": {
+      "md5": "7ea3ffb4101bf63dfb303f6d07547030"
+    }, 
+    "creator/btn_keySure_nor.png": {
+      "md5": "8e1f7a6af6a1f646b9d9c1f3cafe3a94"
+    }, 
+    "creator/btn_keynum.png": {
+      "md5": "ab66aa950fcd94404c95afef536c3c67"
+    }, 
+    "creator/btn_mess_nor.png": {
+      "md5": "e209037573a3dfabbb6fb4058c75c923"
+    }, 
+    "creator/btn_roomCard_nor.png": {
+      "md5": "ddcd3454c16d27e0a09a674f51d4e60b"
+    }, 
+    "creator/btn_shopBuy_nor.png": {
+      "md5": "bbb3102e68a0db89e7237dae613630fe"
+    }, 
+    "creator/btn_shopleft_nor.png": {
+      "md5": "310d1a6b601ce4c8f8ea822741dff06f"
+    }, 
+    "creator/btn_text_nor.png": {
+      "md5": "f4f64528569a3dc0d5f701fadacd3cb2"
+    }, 
+    "creator/btn_textarea_nor.png": {
+      "md5": "71d75bf85edbd1868b545661556eb458"
+    }, 
+    "creator/btn_wechat_nor.png": {
+      "md5": "676fc78d90cb09f390ebd28221070025"
+    }, 
+    "creator/btn_wechat_pre.png": {
+      "md5": "02498d7abbb33003cc5af286e9e5b800"
+    }, 
+    "creator/checkbox1.png": {
+      "md5": "6d27d5751631f9f95495270953f252e9"
+    }, 
+    "creator/checkbox2.png": {
+      "md5": "612e885e612ced5959512b6b9d28e1ef"
+    }, 
+    "creator/home.ccreator": {
+      "md5": "3cbfdac6459f8f3352af813aa39ca77e"
+    }, 
+    "creator/home.png": {
+      "md5": "d5f8a31983c86f613e5fdec1e81f06da"
+    }, 
+    "creator/homeInfoBar.png": {
+      "md5": "dc9d21f8099315b09a1397a3cac56a18"
+    }, 
+    "creator/homeTitle.png": {
+      "md5": "e965bc93e188238adaec7e40eccb0cd2"
+    }, 
+    "creator/img_Agreement.png": {
+      "md5": "3b0fae2aba00df41bbc7699a968666c2"
+    }, 
+    "creator/img_Disclaimer.png": {
+      "md5": "32438f491e3ebacca7b74cf30eef1d70"
+    }, 
+    "creator/img_alertAct.png": {
+      "md5": "6027db6d3d1ea75146ed7f98182a2acd"
+    }, 
+    "creator/img_alertAgreement.png": {
+      "md5": "9ccc40d86c22c9251b4126e79a2c2a13"
+    }, 
+    "creator/img_alertKe.png": {
+      "md5": "e12a4a52103bc57f0a75c0c9ef7ede53"
+    }, 
+    "creator/img_alertPhone.png": {
+      "md5": "2dd60d1e4fd0f844f4aaae1f5169c591"
+    }, 
+    "creator/img_alertStop.png": {
+      "md5": "9f657c75bfb7f5d0859f0455a9684c0d"
+    }, 
+    "creator/img_exit.png": {
+      "md5": "5b657e7f4fff071b674109219ea42058"
+    }, 
+    "creator/img_gengxin.png": {
+      "md5": "9cf11c818a1cdc281e1b29daba7d19a9"
+    }, 
+    "creator/img_gonggao.png": {
+      "md5": "cc7fe7507c52f5ed211d8a9fd17e4070"
+    }, 
+    "creator/img_homeAdd.png": {
+      "md5": "31930808708d916151b1b737acc7e15c"
+    }, 
+    "creator/img_homePhoto.png": {
+      "md5": "5a9df02ae2c716a6260e35580ccb895c"
+    }, 
+    "creator/img_homebg.png": {
+      "md5": "d25b95ac015c53bcb08cadbb4f8896f0"
+    }, 
+    "creator/img_messCard.png": {
+      "md5": "59812861c0be63016c5a00f227e75098"
+    }, 
+    "creator/img_messMin.png": {
+      "md5": "e871eef14cfc5350a4e68428a0036a91"
+    }, 
+    "creator/img_messRead.png": {
+      "md5": "fcb4c42f979cb7fdbca5867e3c72a1f3"
+    }, 
+    "creator/img_messUnread.png": {
+      "md5": "d4c4d951063e9e4b72c1177fcc6645ce"
+    }, 
+    "creator/img_messbg.png": {
+      "md5": "1f5e8ac686bd2e196a31f3bac00ed910"
+    }, 
+    "creator/img_num0.png": {
+      "md5": "5530847d1e78d61c5808b4c133565e56"
+    }, 
+    "creator/img_num1.png": {
+      "md5": "963499b49346383ed6d86c8e955522bc"
+    }, 
+    "creator/img_num2.png": {
+      "md5": "f683a6b3f7c2f229f13c35b7d3d440ef"
+    }, 
+    "creator/img_num3.png": {
+      "md5": "12a8a10cad08d40e91edcc56a4398f3c"
+    }, 
+    "creator/img_num4.png": {
+      "md5": "f9d97d4a7c316143e74a0ca0875f64b1"
+    }, 
+    "creator/img_num5.png": {
+      "md5": "e53350f2be659c471ae290fbf8e4cd26"
+    }, 
+    "creator/img_num6.png": {
+      "md5": "4b374e1cd71996cff6d45724ad26a9c0"
+    }, 
+    "creator/img_num7.png": {
+      "md5": "1289945b5235edb1c8ff6c685e793676"
+    }, 
+    "creator/img_num8.png": {
+      "md5": "fff63663cf5c182aa117c03ba21d27cd"
+    }, 
+    "creator/img_num9.png": {
+      "md5": "b7c549a5bfc019558e76078ee8b818b2"
+    }, 
+    "creator/img_photo.png": {
+      "md5": "dd5857feb837e34e8aeb5887bb3fa2dd"
+    }, 
+    "creator/img_photoAdd.png": {
+      "md5": "35665950ab38e8f9bb85b07786ce348c"
+    }, 
+    "creator/img_photoBorder.png": {
+      "md5": "c79ccee320a03e97ed2ef36fbc7dcb78"
+    }, 
+    "creator/img_putIn.png": {
+      "md5": "195e3f1213834f9c5d31f776491cbc97"
+    }, 
+    "creator/img_relief.png": {
+      "md5": "af4cf90c79c63fee7e5bcd7be247c5d1"
+    }, 
+    "creator/img_shengming.png": {
+      "md5": "193ea863871cd5a6375d029cc45036e2"
+    }, 
+    "creator/img_shopCard.png": {
+      "md5": "a45024939e9bf94a09dc0e153e09070f"
+    }, 
+    "creator/img_shopLine.png": {
+      "md5": "d55fa00be20a4063b7a4f0af580395c3"
+    }, 
+    "creator/img_shopMoney.png": {
+      "md5": "d974bde4c0a95e69d7b88072401ac3b7"
+    }, 
+    "creator/img_zhushou.png": {
+      "md5": "3800e59c2a97520b3ea618c2f95980d0"
+    }, 
+    "creator/login.ccreator": {
+      "md5": "785a6376670671e178a983163abdbc09"
+    }, 
+    "creator/loginBg.png": {
+      "md5": "6e99d80582bf07e6680cddee45b9e592"
+    }, 
+    "creator/loginTitle.png": {
+      "md5": "e2f39bd56596f345014088ab97ad208c"
+    }, 
+    "creator/login_tip.png": {
+      "md5": "01ae4624abe79e6643aa73455e7545ac"
+    }, 
+    "creator/mask.png": {
+      "md5": "a113223c915fbc76a6c22cfc4b6d30df"
+    }, 
+    "creator/message.ccreator": {
+      "md5": "b963f1e7df9b4ef6ef1c9330cdfdb1c0"
+    }, 
+    "creator/panel.png": {
+      "md5": "efcbc711461c49d3d23783580c87765b"
+    }, 
+    "creator/progress.png": {
+      "md5": "36430116db0cc73f14f32b0b98afc3b7"
+    }, 
+    "creator/progressBg.png": {
+      "md5": "65fc545b5e46e22455fb3bebb8326c36"
+    }, 
+    "creator/shop.ccreator": {
+      "md5": "187086f060f8003b633456a4f0ba37fc"
+    }, 
+    "creator/spjoin.ccreator": {
+      "md5": "907d960b47df1421b6727aeff93b3d56"
+    }, 
+    "creator/static.ccreator": {
+      "md5": "353b363743881106f877d81a1d0f7165"
+    }, 
+    "creator/userpop.ccreator": {
+      "md5": "e96adfbe1c1b6adbd8e4b11dddb9dea3"
+    }, 
+    "loading.plist": {
+      "md5": "f0e8a870b6dff5c718609fd9492d5f04"
+    }, 
+    "loading.png": {
+      "md5": "7bf1bb26f568e1e8400f7acf44a7a408"
+    }, 
+    "main.lua": {
+      "md5": "6bb2be3529553884cb8711f5a6798ff4"
+    }, 
+    "menu_a0.png": {
+      "md5": "eb87a7b2561b0559fa1306e52ef4c5e1"
+    }, 
+    "packages/framework/Cocos2d.lua": {
+      "md5": "d3e3e5e63bab2b8ce0a1b5d960c11aeb"
+    }, 
+    "packages/framework/Cocos2dConstants.lua": {
+      "md5": "1a2b5804a4337958dd56c525c69dd893"
+    }, 
+    "packages/framework/display.lua": {
+      "md5": "7e51563c254320b7313c962fd250cbc2"
+    }, 
+    "packages/framework/event.lua": {
+      "md5": "ce90b474524bb36c82833acd3d23a741"
+    }, 
+    "packages/framework/functions.lua": {
+      "md5": "4d03c4bc7ad858709d57e254243f3ce9"
+    }, 
+    "packages/framework/init.lua": {
+      "md5": "f91299870a1984913887b474479f0dbe"
+    }, 
+    "packages/framework/json.lua": {
+      "md5": "af25b930d1202aea87039ddf380488b2"
+    }, 
+    "packages/framework/package_support.lua": {
+      "md5": "9af20f65abc3c7a7dc866587528bd2e9"
+    }, 
+    "packages/mvc/AppBase.lua": {
+      "md5": "4990e38c13234a3dd2c4700bbff69d0a"
+    }, 
+    "packages/mvc/LayerBase.lua": {
+      "md5": "d8763baf5dd982d52f9b60f4feb277b4"
+    }, 
+    "packages/mvc/ViewBase.lua": {
+      "md5": "b6f9da8e237e1ad814a0070036e2c6e0"
+    }, 
+    "packages/mvc/init.lua": {
+      "md5": "1bda7d50365134f0f78b94d467b0bc02"
+    }, 
+    "ui/btncom1.png": {
+      "md5": "68d4fcf2d591b6f4beb8b3ebd6332260"
+    }, 
+    "ui/btncom2.png": {
+      "md5": "aa5bb722be954202adf10e88d4836886"
+    }, 
+    "ui/btncom3.png": {
+      "md5": "7ff80e390776c7c9cae47223dba98460"
+    }, 
+    "ui/btntext1.png": {
+      "md5": "81a1154412e44078bf13d74ab788bb1a"
+    }, 
+    "ui/btntext2.png": {
+      "md5": "03558eaf2a702a85bac1882c820baf4b"
+    }, 
+    "ui/btntext3.png": {
+      "md5": "b2bf2e1b2ef0ee1bec4b771777456450"
+    }, 
+    "ui/btntext4.png": {
+      "md5": "b6099c1a4f2057c753e74289b67875e4"
+    }, 
+    "ui/compop.ccreator": {
+      "md5": "e7c57ff90e5b44667c9f0d754fe5220c"
+    }, 
+    "ui/disspop.ccreator": {
+      "md5": "707a66d73f3c1dc8630987f066d13ee7"
+    }, 
+    "ui/dissta2.png": {
+      "md5": "5a9c54fb102351b2055f82331da29a5c"
+    }, 
+    "ui/dissta3.png": {
+      "md5": "d800e918c7ce4f847a28145aa06129d0"
+    }, 
+    "ui/dissta4.png": {
+      "md5": "9877aabf0442f1c392fe6a66aa7c6631"
+    }, 
+    "ui/gpsbtn.png": {
+      "md5": "e24917a45fd3442ddd4845cb2b36a088"
+    }, 
+    "ui/gpsicon.png": {
+      "md5": "7799f59d3a918048b17da2bbd54d047a"
+    }, 
+    "ui/gpslin1.png": {
+      "md5": "09e06c30822393e6538c7fc6a3c54e5a"
+    }, 
+    "ui/gpslin2.png": {
+      "md5": "aa4bb8ae228ecff09f204a929d9c4a8d"
+    }, 
+    "ui/gpslin3.png": {
+      "md5": "53910bc4566020cd05546803a8d51f84"
+    }, 
+    "ui/gpslin4.png": {
+      "md5": "e99693876daf7ece91e8255a79a31ca6"
+    }, 
+    "ui/gpspop.ccreator": {
+      "md5": "46177a799665eb8d8179bd647c7791be"
+    }, 
+    "ui/gpspopbg.png": {
+      "md5": "0c1eff2f1f5423f865aa1127b5cbaa67"
+    }, 
+    "ui/maskbg.png": {
+      "md5": "2d62b3accee531be021cd3528c2d7fbc"
+    }, 
+    "ui/panel.png": {
+      "md5": "efcbc711461c49d3d23783580c87765b"
+    }, 
+    "ui/picmoren.png": {
+      "md5": "768a0ff15396a48236ad2ee2e1ed62af"
+    }, 
+    "ui/picquan1.png": {
+      "md5": "4d448774ea6b1920946c424480bea30b"
+    }, 
+    "ui/popcom1.png": {
+      "md5": "1f56130e5f2041c87d25ee22c9d5d58b"
+    }, 
+    "ui/popcom2.png": {
+      "md5": "8d7c962ac9d3fddba2d1fd30092b0274"
+    }, 
+    "ui/popcom3.png": {
+      "md5": "457dd9f7da1a7ab8d8e5db2197c994e0"
+    }, 
+    "ui/voiceshow1.png": {
+      "md5": "29863ac858f8cea3b31582a2e140be87"
+    }, 
+    "ui/voiceshow2.png": {
+      "md5": "a8beee98c542e6924c000f0e948ec3e6"
+    }, 
+    "ui/voicetip1.png": {
+      "md5": "3227a8c10b50de6a344f3fb4249c9911"
+    }, 
+    "ui/voicetip2.png": {
+      "md5": "47569ec8817d6dba21427075190da271"
+    }, 
+    "ui/yuYin1.png": {
+      "md5": "2d9e22b1e964146b1e5aae7d77b07082"
+    }, 
+    "ui/yuYin2.png": {
+      "md5": "9246089f0567e8e1137ae62f847dfe95"
+    }, 
+    "ui/yuYin3.png": {
+      "md5": "f7b4c39060d3a998a4d1f84909d2684a"
+    }, 
+    "ui/yuYingBg.png": {
+      "md5": "5f34beffa6747c34d6fef34a45816183"
+    }, 
+    "ui/yusp1.png": {
+      "md5": "84d5b1b4b1c6b6674f67eb07ecdf5737"
+    }, 
+    "ui/yusp2.png": {
+      "md5": "c5eaf58c2e47eeeb095a340efec5e861"
+    }, 
+    "ui/yusp3.png": {
+      "md5": "3e0e40e788872cf35f621cd58398747a"
+    }
+  }, 
+  "packageUrl": "http://192.168.1.200:8888/down/des/res/", 
+  "remoteManifestUrl": "http://192.168.1.200:8888/down/des/project.manifest", 
+  "remoteVersionUrl": "http://192.168.1.200:8888/down/des/version.manifest", 
+  "version": "0.0.14"
+}

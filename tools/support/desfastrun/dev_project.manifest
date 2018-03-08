@@ -1,0 +1,35 @@
+{
+  "assets": {
+    "EntireFramesTest.mp3": {
+      "md5": "d13d5dbe530807ab2d57310774731acd"
+    }, 
+    "HomeScene.lua": {
+      "md5": "2010003cf99cac087106e4be9400a91e"
+    }, 
+    "SmallFile2.mp3": {
+      "md5": "cb59b9c431ec0c10523b6004d3a8432d"
+    }, 
+    "btn-a-0.png": {
+      "md5": "17a2a68c767a58107199ecc42ecc2a50"
+    }, 
+    "btn-a-1.png": {
+      "md5": "b05acf40e40d6fbc627df43a1f8b690d"
+    }, 
+    "btn-a-2.png": {
+      "md5": "5eacd03b18e4df66d7ab35d0db28121b"
+    }, 
+    "btn-test-0.png": {
+      "md5": "c4cbe758fbc0b01949e2a0b4914b8e14"
+    }, 
+    "crystals.plist": {
+      "md5": "8edb277f4f3855b86f13603a682164f4"
+    }, 
+    "crystals.png": {
+      "md5": "ef204c833cc8b1d6184278e45472440f"
+    }
+  }, 
+  "packageUrl": "http://192.168.1.200:8888/down/des/res/child/fastrun/", 
+  "remoteManifestUrl": "http://192.168.1.200:8888/down/des/res/child/fastrun/project.manifest", 
+  "remoteVersionUrl": "http://192.168.1.200:8888/down/des/res/child/fastrun/version.manifest", 
+  "version": "0.0.03"
+}

@@ -1,0 +1,29 @@
+#########################################
+#
+#       必填配置
+#
+##########################################
+project_name: gametools
+project_root: /data/work/tools
+
+##########################################
+#
+#       可选配置,可根据自己需求
+#
+##########################################
+dating_name: desgame
+dating_root: /data/work/desgamet
+dating_res: /data/work/tools/support/desdating
+lookver_url: http://101.201.198.69:50007/platform/app/subset/version       # 查看版本 123.57.62.251
+updtver_url: http://101.201.198.69:50007/platform/pass/app/update/version  # 更新版本
+
+dev_tran: nabai_dev@192.168.1.200:~/Documents/lymajiang    # 本地
+debug_tran: work@101.201.198.69:/mnt/upload/update/desgame # 资源传输路径
+online_tran: undifined
+
+csmj_res: /data/work/tools/support/descsmj # 长沙麻将 id=10
+hzmj_res: /data/work/tools/support/deshzmj # 红中麻将 id=12
+fastrun_res: /data/work/tools/support/desfastrun # 跑得快 id=13
+hsphz_res: /data/work/tools/support/deshsphz # 汉寿跑胡子 id=4
+lsmj_res: /data/work/tools/support/deslsmj # 汉寿跑胡子 id=14
+cdphz_res: /data/work/tools/support/descdphz # 汉寿跑胡子 id=2
